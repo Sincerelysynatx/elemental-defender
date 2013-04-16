@@ -8,11 +8,12 @@ package Entities;
  */
 public interface Entity
 {
-    /**
-     * An example of a method header - replace this comment with your own
-     * 
-     * @param  y    a sample parameter for a method
-     * @return        the result produced by sampleMethod 
-     */
-    int sampleMethod(int y);
+    public double x;
+    public double y;
+    public String imgLoc;
+    
+    public Entity(double x, double y, String imgLoc)
+    {
+        
+    }
 }
