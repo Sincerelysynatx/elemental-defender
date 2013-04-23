@@ -1,4 +1,4 @@
-package Enemies;
+package src.Enemies;
 
 import org.newdawn.slick.SlickException;
 
